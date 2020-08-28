@@ -1,0 +1,121 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "胡掌柜",
+				"navigationBarBackgroundColor": "#eee"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登陆",
+				"navigationBarBackgroundColor": "#eee"
+			}
+		}, {
+			"path": "pages/orderData/orderData",
+			"style": {
+				"navigationBarTitleText": "交易统计",
+				"navigationBarBackgroundColor": "#eee"
+			}
+		}, {
+			"path": "pages/qrcode/qrcode",
+			"style": {
+				"navigationBarTitleText": "收银二维码",
+				"navigationBarBackgroundColor": "#eee"
+			}
+		}
+	    ,{
+            "path" : "pages/amount/amount",
+            "style": {
+            	"navigationBarTitleText": "设置金额",
+            	"navigationBarBackgroundColor": "#eee"
+            }
+        }
+        ,{
+            "path" : "pages/home/home",
+            "style" : {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#eee"
+			}
+        }
+        ,{
+            "path" : "pages/shop/shop",
+            "style" : {
+				"navigationBarTitleText": "门店列表",
+				"navigationBarBackgroundColor": "#eee"
+			}
+        }
+        ,{
+            "path" : "pages/person/person",
+            "style" : {
+				"navigationBarTitleText": "用户列表",
+				"navigationBarBackgroundColor": "#eee"
+			}
+        }
+        ,{
+            "path" : "pages/personDetail/personDetail",
+            "style" : {
+				"navigationBarTitleText": "交易流水",
+				"navigationBarBackgroundColor": "#eee"
+			}
+        }
+        ,{
+            "path" : "pages/shopChild/shopChild",
+            "style" : {
+				"navigationBarTitleText": "门店详情",
+				"navigationBarBackgroundColor": "#eee"
+			}
+        }
+        ,{
+            "path" : "pages/roomDetail/roomDetail",
+            "style" : {
+				"navigationBarTitleText": "包厢列表",
+				"navigationBarBackgroundColor": "#eee"
+			}
+        }
+        ,{
+            "path" : "pages/deskDetail/deskDetail",
+            "style" : {
+				"navigationBarTitleText": "桌台列表",
+				"navigationBarBackgroundColor": "#eee"
+			}
+        }
+        ,{
+            "path" : "pages/qrcodeDeskRoom/qrcodeDeskRoom",
+            "style" : {
+				"navigationBarTitleText": "二维码",
+				"navigationBarBackgroundColor": "#eee"
+			}
+        }
+    ],
+	"tabBar": {
+	    // "color": "#1296db",
+	    // "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/home/home",
+	        "iconPath": "static/icon/home.png",
+	        "selectedIconPath": "static/icon/home_selected.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/orderData/orderData",
+	        "iconPath": "static/icon/tab_data.png",
+	        "selectedIconPath": "static/icon/tab_data_selected.png",
+	        "text": "交易统计"
+	    }, {
+	        "pagePath": "pages/qrcode/qrcode",
+	        "iconPath": "static/icon/tab_qrcode.png",
+	        "selectedIconPath": "static/icon/tab_qrcode_selected.png",
+	        "text": "收银二维码"
+	    }]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "胡掌柜",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
